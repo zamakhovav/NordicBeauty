@@ -1,0 +1,54 @@
+@import 'extend';
+@import 'variables';
+@import 'mixins';
+
+/*********************************
+Body and some general stuff
+*********************************/
+
+body {
+  line-height: 23px;
+  background: $white;
+  color: $black;
+  @extend %body-p-general;
+}
+
+div {
+  display: block;
+  position: relative;
+  @include transform(border-box);
+
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+p {
+  line-height: 1.7;
+  color: $dark-grey;
+  @extend %body-p-general;
+  a {
+    display: inline;
+    position: relative;
+    color: inherit;
+    @include transform(all 200ms ease);
+  }
+}
+
+h1{font-size: 72px;}
+h2{font-size: 40px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 16px;}
+h6{font-size: 14px;}
+
+.fill_height {
+  height: 100%;
+}
+
+.super_container {
+  width: 100%;
+  overflow: hidden;
+}

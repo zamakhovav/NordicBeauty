@@ -1,0 +1,107 @@
+[
+  {
+    "name": "EXPRESS MANICURE - Beauty salon",
+    "originalPrice": 40.00,
+    "discountPrice": 35.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails.png"
+  },
+
+  {
+    "name": "FANCY MANICURE - Lady Sun salon",
+    "originalPrice": 55.00,
+    "discountPrice": 40.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails2.png"
+  },
+
+  {
+    "name": "CLASSIC MANICURE - Tallinn salon",
+    "originalPrice": 25.00,
+    "discountPrice": 20.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails3.png"
+  },
+
+  {
+    "name": "EASY MANICURE - Beauty me salon",
+    "originalPrice": 30.00,
+    "discountPrice": 29.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails5.png"
+  },
+
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails6.png"
+  },
+
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails7.png"
+  },
+
+  {
+    "name": "CLASSIC MANICURE - Tallinn salon",
+    "originalPrice": 25.00,
+    "discountPrice": 20.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails8.png"
+  },
+
+  {
+    "name": "EASY MANICURE - Beauty me salon",
+    "originalPrice": 30.00,
+    "discountPrice": 29.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails9.png"
+  },
+
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails10.png"
+  },
+
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails11.png"
+  },
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails12.png"
+  },
+
+  {
+    "name": "CLASSIC MANICURE - Tallinn salon",
+    "originalPrice": 25.00,
+    "discountPrice": 20.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails13.png"
+  },
+
+  {
+    "name": "EASY MANICURE - Beauty me salon",
+    "originalPrice": 30.00,
+    "discountPrice": 29.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails14.png"
+  },
+
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails15.png"
+  },
+
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/nails/minimalism_nails16.png"
+  }
+
+
+]

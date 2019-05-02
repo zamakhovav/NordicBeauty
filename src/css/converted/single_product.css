@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900");
+body, p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
+
+.top_nav_left, .top_nav_right {
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+  color: #b5aec4;
+  text-transform: uppercase; }
+
+.navbar_user li a, .checkout_items {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+body, p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
+
+.top_nav_left, .top_nav_right {
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+  color: #b5aec4;
+  text-transform: uppercase; }
+
+.navbar_user li a, .checkout_items {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/*********************************
+Body and some general stuff
+*********************************/
+body {
+  line-height: 23px;
+  background: #FFFFFF;
+  color: #1e1e27; }
+
+div {
+  display: block;
+  position: relative;
+  -webkit-transform: border-box;
+  -moz-transform: border-box;
+  -ms-transform: border-box;
+  -o-transform: border-box;
+  transform: border-box; }
+
+ul {
+  list-style: none;
+  margin-bottom: 0px; }
+
+p {
+  line-height: 1.7;
+  color: #989898; }
+  p a {
+    display: inline;
+    position: relative;
+    color: inherit;
+    -webkit-transform: all 200ms ease;
+    -moz-transform: all 200ms ease;
+    -ms-transform: all 200ms ease;
+    -o-transform: all 200ms ease;
+    transform: all 200ms ease; }
+
+h1 {
+  font-size: 72px; }
+
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 16px; }
+
+h6 {
+  font-size: 14px; }
+
+.fill_height {
+  height: 100%; }
+
+.super_container {
+  width: 100%;
+  overflow: hidden; }
+
+/*********************************
+Top header
+*********************************/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFFFFF;
+  z-index: 10; }
+
+.top_nav {
+  width: 100%;
+  height: 50px;
+  background: #1e1e27; }
+
+.top_nav_left img {
+  height: 14px;
+  line-height: 40px;
+  font-size: 13px;
+  color: #b5aec4;
+  text-transform: uppercase; }
+
+.top_nav_right {
+  right: -450px; }
+
+/*********************************
+Logo - ()Nordic beauty
+*********************************/
+.logo_container {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .logo_container a {
+    font-size: 24px;
+    color: #1e1e27;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .logo_container a span {
+      color: #fe4c50; }
+
+.navbar-bg {
+  background-color: #ed969e;
+  height: 30px; }
+
+.navbar-brand img {
+  width: 50px; }
+
+/*********************************
+Main Navigation
+*********************************/
+.navbar {
+  width: auto;
+  height: 100px;
+  float: right; }
+
+.navbar_menu li {
+  display: inline-block; }
+  .navbar_menu li a {
+    display: block;
+    color: #1e1e27;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+    -webkit-transform: color 0.3s ease;
+    -moz-transform: color 0.3s ease;
+    -ms-transform: color 0.3s ease;
+    -o-transform: color 0.3s ease;
+    transform: color 0.3s ease; }
+    .navbar_menu li a:hover {
+      color: #b5aec4; }
+
+.navbar_user {
+  margin-left: 37px; }
+  .navbar_user li {
+    display: inline-block;
+    text-align: center; }
+    .navbar_user li a {
+      width: 40px;
+      height: 40px;
+      -webkit-transform: color 0.3s ease;
+      -moz-transform: color 0.3s ease;
+      -ms-transform: color 0.3s ease;
+      -o-transform: color 0.3s ease;
+      transform: color 0.3s ease;
+      position: relative;
+      color: #1e1e27; }
+      .navbar_user li a:hover {
+        color: #b5aec4; }
+
+.checkout a {
+  background: #eceff6;
+  border-radius: 50%; }
+
+.checkout_items {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+  left: 22px;
+  border-radius: 50%;
+  background: #fe4c50;
+  font-size: 12px;
+  color: #FFFFFF; }
+
+/*********************************
+3.7 Main Slider
+*********************************/
+.main_slider {
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 150px; }
+
+.main_slider_content {
+  width: 60%; }
+  .main_slider_content h1 {
+    font-weight: 400;
+    line-height: 1; }
+
+.red_button {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  background: #fe4c50;
+  border-radius: 3px;
+  -webkit-transform: all 0.3s ease;
+  -moz-transform: all 0.3s ease;
+  -ms-transform: all 0.3s ease;
+  -o-transform: all 0.3s ease;
+  transform: all 0.3s ease; }
+  .red_button:hover {
+    background: #ed969e !important; }
+  .red_button a {
+    display: block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    width: 100%; }
+
+.see_more_btn {
+  width: 140px;
+  margin-top: 32px; }
+
+/*********************************
+Breadcrumbs
+*********************************/
+.breadcrumbs {
+  width: 100%;
+  height: 60px;
+  border-bottom: solid 1px #ebebeb;
+  margin-bottom: 58px; }
+  .breadcrumbs ul li {
+    display: inline-block;
+    margin-right: 17px; }
+    .breadcrumbs ul liactive a {
+      color: #b9b4c7; }
+    .breadcrumbs ul li i {
+      margin-right: 17px; }
+    .breadcrumbs ul li a {
+      color: #51545f; }
+
+.product_section_container {
+  margin-top: 150px; }
+
+/*
+The way to single service
+*/
+.single_product_container {
+  margin-top: 150px;
+  padding-bottom: 80px;
+  border-bottom: solid 1px #ebebeb; }
+
+.image_col {
+  padding-right: 30px; }
+
+.single_product_image {
+  width: 100%;
+  height: 527px;
+  left: 10px;
+  display: inline-block; }
+
+.single_product_image_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+/*Product details*/
+.product_details {
+  width: 100%; }
+
+.product_details_tittle {
+  font-weight: 500px;
+  line-height: 30px; }
+  .product_details_tittle p {
+    margin-top: 12px; }
+
+.additional {
+  background: #ebebeb;
+  margin-top: 40px; }
+
+.additional span:last-child {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase; }
+
+.additional span:first-child {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 25px;
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  transform: translateY(-1px); }
+
+.original_price {
+  font-weight: 500;
+  color: #b9b4c7;
+  text-decoration: line-through;
+  line-height: 30px;
+  margin-top: 21px; }
+
+.product_price {
+  display: inline-block;
+  font-size: 24px;
+  color: #fe4c50;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 2px; }
+
+.star_rating {
+  display: inline-block;
+  margin-left: -33px; }
+  .star_rating li {
+    display: inline-block;
+    margin-right: -2px;
+    cursor: pointer; }
+    .star_rating li i {
+      color: #fac451; }
+
+.add_to_cart_button {
+  width: 160px;
+  margin-left: 280px;
+  font-size: 12px !important; }
+
+.product_color {
+  margin-top: 27px; }
+
+/*Description of product.*/
+.tabs_section_container {
+  width: 100%;
+  padding-bottom: 80px;
+  border-bottom: solid 1px #ebebeb; }
+
+.tab_container {
+  with: 100%;
+  display: inline-block;
+  margin-top: 25px; }
+
+.tab_text_block {
+  margin-bottom: 133px; }
+  .tab_text_block p {
+    font-weight: 400;
+    margin-top: 10px; }
+
+.tab_image {
+  width: 100%;
+  margin-bottom: 131px; }
+  .tab_image img {
+    width: 100%;
+    display: inline-block; }
+
+.desc_col {
+  margin-bottom: 0px; }
+
+/*# sourceMappingURL=single_product.css.map */

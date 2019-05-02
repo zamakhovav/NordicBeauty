@@ -1,0 +1,35 @@
+[
+  {
+    "name": "EXPRESS MANICURE - Beauty salon",
+    "originalPrice": 40.00,
+    "discountPrice": 35.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/manicure/manicure1.jpg"
+  },
+
+  {
+    "name": "FANCY MANICURE - Lady Sun salon",
+    "originalPrice": 55.00,
+    "discountPrice": 40.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/manicure/manicure2.jpg"
+  },
+
+  {
+    "name": "CLASSIC MANICURE - Tallinn salon",
+    "originalPrice": 25.00,
+    "discountPrice": 20.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/manicure/manicure3.png"
+  },
+
+  {
+    "name": "EASY MANICURE - Beauty me salon",
+    "originalPrice": 30.00,
+    "discountPrice": 29.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/manicure/manicure4.png"
+  },
+  {
+    "name": "FAST MANICURE - Relax Beauty salon",
+    "originalPrice": 28.00,
+    "discountPrice": 25.00,
+    "url": "http://dijkstra.cs.ttu.ee/~vezama/images/manicure/manicure5.jpg"
+  }
+]
